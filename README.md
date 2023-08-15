@@ -42,3 +42,10 @@ sudo systemctl status php8.2-fpm
 php --version
 sudo apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
 ```
+# zsh
+```
+sudo nano .zshrc
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+sudo apt install zsh
+sudo apt install curl
+```
