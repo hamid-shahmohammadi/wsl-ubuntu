@@ -18,6 +18,10 @@ wsl.exe --set-version Ubuntu 2
 
 wsl -l -v
 ```
+# ubuntu release
+```
+lsb_release -a
+```
 # php
 ```
 sudo apt update
