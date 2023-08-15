@@ -25,6 +25,7 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt update
 ```
 # for apache
+```
 sudo apt install php8.2 -y
 ```
 # for nginx
