@@ -31,6 +31,7 @@ sudo apt install php8.2 -y
 # for nginx
 ```
 sudo apt install php8.2-fpm
+sudo systemctl status php8.2-fpm
 ```
 # install PHP Extensions
 ```
