@@ -44,8 +44,8 @@ sudo apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-
 ```
 # zsh
 ```
+sudo apt install curl zip unzip
+sudo apt install zsh
 sudo nano .zshrc
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
-sudo apt install zsh
-sudo apt install curl
 ```
