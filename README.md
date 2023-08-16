@@ -1,4 +1,4 @@
-# wsl-ubuntu
+# wsl ubuntu for development
 ```
 wsl.exe --install
 wsl.exe --update
