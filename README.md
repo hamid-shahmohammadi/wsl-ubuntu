@@ -46,6 +46,7 @@ sudo apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-
 ```
 sudo apt install curl zip unzip
 sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo nano .zshrc
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 ```
