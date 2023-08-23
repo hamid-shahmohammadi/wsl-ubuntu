@@ -50,3 +50,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sudo nano .zshrc
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 ```
+## mysql
+```
+sudo apt install mysql-server
+ps -ef | grep mysql
+kill [the id]
+sudo /etc/init.d/mysql restart
+sudo /etc/init.d/mysql start
+sudo  mysql -u root -p
+CREATE DATABASE lv;
+CREATE USER 'admin'@'localhost' IDENTIFIED BY '123456';
+GRANT ALL ON lv.* TO 'admin'@'localhost';
+FLUSH PRIVILEGES;
+QUIT;
+```
