@@ -57,6 +57,8 @@ ps -ef | grep mysql
 kill [the id]
 sudo /etc/init.d/mysql restart
 sudo /etc/init.d/mysql start
+sudo /etc/init.d/mariadb start
+ sudo mariadb
 sudo  mysql -u root -p
 CREATE DATABASE lv;
 CREATE USER 'admin'@'localhost' IDENTIFIED BY '123456';
