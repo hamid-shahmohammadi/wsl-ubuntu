@@ -66,3 +66,16 @@ GRANT ALL ON lv.* TO 'admin'@'localhost';
 FLUSH PRIVILEGES;
 QUIT;
 ```
+## /etc/mysql/my.cnf
+```
+[mysqld]                                                                                                                
+bind-address = 0.0.0.0                                                                                                    
+user=root                                                                                                               
+pid-file     = /var/run/mysqld/mysqld.pid                                                                                
+socket       = /var/run/mysqld/mysqld.sock                                                                               
+port         = 3306                                                                                                                                                                                                                              
+
+[client]                                                                                                                
+port         = 3306                                                                                                      
+socket       = /var/run/mysqld/mysqld.sock
+```
