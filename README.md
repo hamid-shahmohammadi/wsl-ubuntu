@@ -93,8 +93,8 @@ mysql -uroot -pYourPass
 ```
 sudo apt install mariadb-server
 mariadb --version
-sudo /etc/init.d/mysql start
-sudo /etc/init.d/mysql status
+sudo /etc/init.d/mariadb start
+sudo /etc/init.d/mariadb status
 sudo mariadb
 #or
 sudo mysql
