@@ -89,3 +89,13 @@ mysqld
 
 mysql -uroot -pYourPass
 ```
+## mariadb
+```
+sudo apt install mariadb-server
+mariadb --version
+sudo /etc/init.d/mysql start
+sudo /etc/init.d/mysql status
+sudo mariadb
+#or
+sudo mysql
+```
