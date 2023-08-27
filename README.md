@@ -79,3 +79,13 @@ port         = 3306
 port         = 3306                                                                                                      
 socket       = /var/run/mysqld/mysqld.sock
 ```
+## mysql
+```
+chmod 777 -R /var/run/mysqld
+chmod 777 -R /var/lib/mysql
+chmod 777 -R /var/log/mysql
+
+mysqld
+
+mysql -uroot -pYourPass
+```
