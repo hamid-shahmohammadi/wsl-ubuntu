@@ -99,3 +99,7 @@ sudo mariadb
 #or
 sudo mysql
 ```
+## hard directory
+```
+%userprofile%\AppData\Local\Packages\Canonical...\LocalState\ext4.vhdx
+```
