@@ -2,6 +2,7 @@
 ```
 wsl.exe --install
 wsl.exe --update
+wsl --install -d ubuntu
 \\wsl$\Ubuntu\home\shah
 ```
 ## link for wsl 1 to wsl 2
