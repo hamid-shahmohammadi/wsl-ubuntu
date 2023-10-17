@@ -104,3 +104,8 @@ sudo mysql
 ```
 %userprofile%\AppData\Local\Packages\Canonical...\LocalState\ext4.vhdx
 ```
+## alias
+```
+nano ~/.zshrc
+alias nrd="npm run dev"
+```
