@@ -100,9 +100,13 @@ sudo mariadb
 #or
 sudo mysql
 ```
-## hard directory
+## Where is the Ubuntu file system root directory in Windows Subsystem for Linux and vice versa?
 ```
 %userprofile%\AppData\Local\Packages\Canonical...\LocalState\ext4.vhdx
+```
+## Where is the kali linux file system root directory in Windows Subsystem for Linux and vice versa?
+```
+C:\Users\shahmohamadi\AppData\Local\Packages\KaliLinux.54290C8133FEE_ey8k8hqnwqnmg\LocalState\ext4.vhdx
 ```
 ## alias
 ```
