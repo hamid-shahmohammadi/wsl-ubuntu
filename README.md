@@ -113,3 +113,7 @@ C:\Users\shahmohamadi\AppData\Local\Packages\KaliLinux.54290C8133FEE_ey8k8hqnwqn
 nano ~/.zshrc
 alias nrd="npm run dev"
 ```
+## change php version
+```
+sudo update-alternatives --config php
+```
