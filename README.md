@@ -119,5 +119,6 @@ sudo update-alternatives --config php
 ```
 ## install microsoft store
 ```
+powershell run as administrator
 wsreset-i
 ```
