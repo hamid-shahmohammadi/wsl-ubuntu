@@ -117,3 +117,7 @@ alias nrd="npm run dev"
 ```
 sudo update-alternatives --config php
 ```
+## install microsoft store
+```
+wsreset-i
+```
