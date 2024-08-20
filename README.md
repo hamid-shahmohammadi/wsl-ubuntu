@@ -124,5 +124,7 @@ wsreset-i
 ```
 ## wsl proxy
 ```
-export http_proxy=http://127.0.0.1:2080
+export http_proxy="http://localhost:2081"
+export https_proxy="http://localhost:2081"
+export ftp_proxy="http://localhost:2081"
 ```
