@@ -131,4 +131,6 @@ export ftp_proxy="http://127.0.0.1:2080"
 nano ~/.bashrc
 
 echo $http_proxy
+
+curl ifconfig.io
 ```
