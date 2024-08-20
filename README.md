@@ -127,4 +127,6 @@ wsreset-i
 export http_proxy="http://localhost:2081"
 export https_proxy="http://localhost:2081"
 export ftp_proxy="http://localhost:2081"
+
+nano ~/.bashrc
 ```
