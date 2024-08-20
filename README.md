@@ -124,9 +124,9 @@ wsreset-i
 ```
 ## wsl proxy
 ```
-export http_proxy="http://localhost:2080"
-export https_proxy="http://localhost:2080"
-export ftp_proxy="http://localhost:2080"
+export http_proxy="http://127.0.0.1:2080"
+export https_proxy="http://127.0.0.1:2080"
+export ftp_proxy="http://127.0.0.1:2080"
 
 nano ~/.bashrc
 ```
