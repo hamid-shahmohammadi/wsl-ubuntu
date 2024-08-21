@@ -133,6 +133,7 @@ nano ~/.bashrc
 echo $http_proxy
 
 curl ifconfig.io
+sudo -E apt update
 ```
 ## /etc/environment
 ```
