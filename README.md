@@ -134,3 +134,16 @@ echo $http_proxy
 
 curl ifconfig.io
 ```
+## /etc/environment
+```
+no_proxy=localhost,127.0.0.0/8,*.local
+NO_PROXY=localhost,127.0.0.0/8,*.local
+all_proxy=socks://proxy.example.com:8080/
+ALL_PROXY=socks://proxy.example.com:8080/
+http_proxy=http://proxy.example.com:8080
+HTTP_PROXY=http://proxy.example.com:8080
+ftp_proxy=http://proxy.example.com:8080
+FTP_PROXY=http://proxy.example.com:8080  
+https_proxy=http://proxy.example.com:8080
+HTTPS_PROXY=http://proxy.example.com:8080
+```
