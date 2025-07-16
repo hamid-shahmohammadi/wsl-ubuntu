@@ -9,6 +9,7 @@ wsl --install -d ubuntu
 ```
 https://learn.microsoft.com/en-us/windows/wsl/basic-commands#set-wsl-version-to-1-or-2
 https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-2---check-requirements-for-running-wsl-2
+wsl --update --web-download
 ```
 ## wsl 2
 ```
